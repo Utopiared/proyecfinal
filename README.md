@@ -120,31 +120,6 @@ usuarios 1 ──────< N fotos
 > Si la usuaria niega el permiso de ubicación, la fotografía se guarda de todas formas y en el detalle se muestra *"Sin ubicación registrada"*.
 
 ---
-
-## 🚀 Instalación y ejecución
-
-### Requisitos
-- [Android Studio](https://developer.android.com/studio) Koala (2024.1) o superior
-- JDK 17 (incluido en Android Studio)
-- Android SDK Platform 34
-- Dispositivo o emulador con Android 7.0 o superior y cámara
-
-### Pasos
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/<tu-usuario>/PetaloFotos.git
-
-# 2. Abrir la carpeta en Android Studio
-#    File › Open › PetaloFotos
-
-# 3. Esperar la sincronización de Gradle y ejecutar ▶ Run
-```
-
-> 💡 **Para probar el GPS en el emulador:** *Extended Controls (⋯) › Location*, elige un punto en el mapa y pulsa **Set Location**.
-
----
-
 ## 📂 Estructura del proyecto
 
 ```
