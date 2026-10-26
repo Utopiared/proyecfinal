@@ -162,16 +162,6 @@ Pantalla principal ──► Tomar foto ──► Cámara ──► Comentario +
 
 ---
 
-## 🌱 Mejoras futuras
-
-- [ ] Eliminar y editar fotografías y comentarios
-- [ ] Mapa con todas las fotos geolocalizadas
-- [ ] Compartir fotos en redes sociales
-- [ ] Modo oscuro
-- [ ] Migración a Room y arquitectura MVVM
-
----
-
 ## 👩‍💻 Autora
 
 **AURA NICTE-HA PECH REYES**
