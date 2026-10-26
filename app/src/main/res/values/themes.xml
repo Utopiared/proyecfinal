@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Petalo" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/rosa_principal</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+        <item name="colorPrimaryContainer">@color/rosa_claro</item>
+        <item name="colorOnPrimaryContainer">@color/ciruela</item>
+        <item name="colorSecondary">@color/lavanda</item>
+        <item name="colorOnSecondary">@color/ciruela</item>
+        <item name="colorSecondaryContainer">@color/lavanda_claro</item>
+        <item name="colorOnSecondaryContainer">@color/ciruela</item>
+        <item name="colorSurface">@color/blanco</item>
+        <item name="colorOnSurface">@color/ciruela</item>
+        <item name="android:colorBackground">@color/rosa_niebla</item>
+        <item name="colorOnBackground">@color/ciruela</item>
+        <item name="android:statusBarColor">@color/rosa_principal</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="textInputStyle">@style/Petalo.Campo</item>
+        <item name="materialButtonStyle">@style/Petalo.Boton</item>
+    </style>
+
+    <!-- Campos de texto redondeados tipo "pastilla" -->
+    <style name="Petalo.Campo" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">22dp</item>
+        <item name="boxCornerRadiusTopEnd">22dp</item>
+        <item name="boxCornerRadiusBottomStart">22dp</item>
+        <item name="boxCornerRadiusBottomEnd">22dp</item>
+        <item name="boxStrokeColor">@color/rosa_principal</item>
+        <item name="hintTextColor">@color/rosa_oscuro</item>
+        <item name="startIconTint">@color/rosa_principal</item>
+        <item name="endIconTint">@color/rosa_principal</item>
+        <item name="boxBackgroundColor">@color/blanco</item>
+    </style>
+
+    <style name="Petalo.Boton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">26dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Petalo.BotonContorno" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">26dp</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeColor">@color/rosa_principal</item>
+        <item name="android:textColor">@color/rosa_oscuro</item>
+    </style>
+
+    <!-- Títulos con letra manuscrita (cursiva del sistema) -->
+    <style name="Petalo.Titulo" parent="">
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/rosa_oscuro</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="Petalo.Subtitulo" parent="">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/texto_suave</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Petalo.Etiqueta" parent="">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/rosa_oscuro</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="Petalo.FotoRedonda" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="Petalo.FotoGrande" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">32dp</item>
+    </style>
+</resources>

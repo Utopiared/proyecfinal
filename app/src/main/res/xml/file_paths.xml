@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Carpeta privada de la app: Android/data/com.petalo.fotos/files/Pictures/Petalo -->
+    <external-files-path name="fotos_petalo" path="Pictures/" />
+</paths>

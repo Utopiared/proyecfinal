@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pétalo</string>
+    <string name="lema">Tus momentos, guardados con cariño ✿</string>
+
+    <!-- Login -->
+    <string name="bienvenida">¡Hola de nuevo, bonita!</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="sin_cuenta">¿Aún no tienes cuenta? <b>Regístrate</b></string>
+
+    <!-- Registro -->
+    <string name="crear_cuenta">Crea tu cuenta</string>
+    <string name="registro_sub">Solo te tomará un minuto ♡</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="ya_tengo_cuenta">Ya tengo cuenta</string>
+
+    <!-- Principal -->
+    <string name="saludo">Hola, %1$s ♡</string>
+    <string name="que_capturamos">¿Qué momento capturamos hoy?</string>
+    <string name="tomar_foto">Tomar foto</string>
+    <string name="ver_fotos">Ver fotos</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="sin_foto_aun">Aquí aparecerá tu última foto</string>
+    <string name="ultima_foto">Última foto</string>
+
+    <!-- Comentario -->
+    <string name="titulo_comentario">Escribe un comentario</string>
+    <string name="hint_comentario">¿Qué hace especial este momento?</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- Lista y detalle -->
+    <string name="mis_fotos">Mis fotos</string>
+    <string name="sin_fotos">Todavía no tienes fotos.\n¡Toma la primera! ✿</string>
+    <string name="comentario">COMENTARIO</string>
+    <string name="ubicacion_gps">UBICACIÓN GPS</string>
+    <string name="fecha">FECHA</string>
+    <string name="ver_en_mapa">Ver en el mapa</string>
+    <string name="sin_ubicacion">Sin ubicación registrada</string>
+    <string name="sin_comentario">(Sin comentario)</string>
+    <string name="latlon">Lat: %1$.6f\nLon: %2$.6f</string>
+
+    <!-- Mensajes -->
+    <string name="err_campo_vacio">Este campo es obligatorio</string>
+    <string name="err_correo">Escribe un correo válido</string>
+    <string name="err_contrasena_corta">Mínimo 6 caracteres</string>
+    <string name="err_no_coinciden">Las contraseñas no coinciden</string>
+    <string name="err_correo_existe">Ese correo ya está registrado</string>
+    <string name="err_login">Correo o contraseña incorrectos</string>
+    <string name="registro_ok">¡Cuenta creada! Ya puedes iniciar sesión ♡</string>
+    <string name="foto_guardada">Foto guardada con cariño ✿</string>
+    <string name="foto_cancelada">No se tomó la foto</string>
+    <string name="permiso_camara">Necesito permiso de cámara para tomar fotos</string>
+    <string name="permiso_ubicacion">Sin permiso de ubicación: la foto se guardará sin GPS</string>
+    <string name="buscando_ubicacion">Buscando ubicación…</string>
+    <string name="sin_app_mapas">No hay una app de mapas instalada</string>
+</resources>

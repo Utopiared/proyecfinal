@@ -1,0 +1,105 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Bals;src:url(file:///tmp/claude-0/-home-claude/4233de30-ac68-536a-8ca0-7ced118585b7/scratchpad/fonts/node_modules/@fontsource/balsamiq-sans/files/balsamiq-sans-latin-400-normal.woff2)}
+@font-face{font-family:Bals;font-weight:700;src:url(file:///tmp/claude-0/-home-claude/4233de30-ac68-536a-8ca0-7ced118585b7/scratchpad/fonts/node_modules/@fontsource/balsamiq-sans/files/balsamiq-sans-latin-700-normal.woff2)}
+@font-face{font-family:Dance;src:url(file:///tmp/claude-0/-home-claude/4233de30-ac68-536a-8ca0-7ced118585b7/scratchpad/fonts/node_modules/@fontsource/dancing-script/files/dancing-script-latin-700-normal.woff2)}
+:root{--ink:#3b2a33;--pink:#e0607e;--pinkl:#f9d3de;--lav:#c8b4e6;--lavl:#eee6fa}
+body{margin:0;background:#fffdf8;font-family:Bals;color:var(--ink);width:1180px;padding:30px 40px 40px;box-sizing:border-box;
+ background-image:radial-gradient(#ead9df 1px,transparent 1px);background-size:22px 22px}
+h1{font-size:34px;margin:0}h1 span{font-family:Dance;color:var(--pink);font-size:46px}
+.sub{color:#7b6470;margin:4px 0 22px;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px 34px}
+.cell .cap{font-weight:700;font-size:19px;margin-bottom:8px}.cell .cap b{display:inline-block;background:var(--pink);color:#fff;border-radius:50%;width:28px;height:28px;text-align:center;line-height:28px;margin-right:6px}
+.phone{width:320px;height:560px;border:3px solid var(--ink);border-radius:30px;background:#fff;filter:url(#sk);position:relative;overflow:hidden;padding:16px 18px;box-sizing:border-box}
+.bar{height:14px;border-bottom:2px solid var(--ink);margin:-4px -18px 12px;font-size:11px;padding:0 18px 2px;display:flex;justify-content:space-between}
+.sk{filter:url(#sk)}
+.inp{border:2.5px solid var(--ink);border-radius:20px;height:38px;margin:9px 0;display:flex;align-items:center;padding:0 12px;color:#8b7680;font-size:15px}
+.btn{border:2.5px solid var(--ink);border-radius:22px;height:42px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;margin:10px 0;background:var(--pink);color:#fff}
+.btn.o{background:var(--lavl);color:var(--ink)}
+.img{border:2.5px solid var(--ink);border-radius:16px;position:relative;background:var(--pinkl)}
+.img:before,.img:after{content:"";position:absolute;left:0;top:50%;width:100%;border-top:2px solid var(--ink);opacity:.55}
+.img:before{transform:rotate(var(--a,32deg))}.img:after{transform:rotate(calc(-1*var(--a,32deg)))}
+.title{font-family:Dance;color:var(--pink);font-size:44px;text-align:center;margin:0}
+.c{text-align:center}.small{font-size:13px;color:#7b6470}
+.head{background:linear-gradient(135deg,var(--pink),var(--lav));margin:-12px -18px 12px;padding:10px 18px 16px;color:#fff;border-bottom:3px solid var(--ink);border-radius:0 0 26px 26px}
+.head .t{font-family:Dance;font-size:30px}
+.card{border:2.5px solid var(--ink);border-radius:18px;padding:8px 12px;margin:9px 0;background:#fff}
+.lbl{font-weight:700;font-size:12px;letter-spacing:1px;color:var(--pink)}
+.note{position:absolute;background:#fff6a8;border:2px solid #c9b84a;font-size:13px;padding:5px 8px;transform:rotate(-3deg);box-shadow:2px 3px 0 rgba(0,0,0,.08);width:150px;line-height:1.25}
+.thumbs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.thumbs .t{border:2.5px solid var(--ink);border-radius:14px;padding:5px;font-size:12px}
+.thumbs .img{height:80px;--a:28deg}
+.flow{margin-top:26px;font-size:17px;border:2.5px dashed var(--pink);border-radius:18px;padding:12px 18px;background:#fff}
+.flow b{color:var(--pink)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="sk"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter></svg>
+<h1><span>Pétalo</span> &nbsp;Boceto de pantallas</h1>
+<div class="sub">Wireframe estilo Balsamiq · paleta rosa palo + lavanda · base de datos local SQLite</div>
+<div class="grid">
+
+<div class="cell"><div class="cap"><b>1</b>Inicio de sesión</div>
+<div class="phone"><div class="bar"><span>9:41</span><span>▮▮▮ ◔</span></div>
+<div class="c" style="margin-top:22px"><div class="sk" style="display:inline-block;width:80px;height:80px;border:2.5px solid var(--ink);border-radius:50%;line-height:80px;font-size:44px;color:var(--pink)">✿</div></div>
+<p class="title">Pétalo</p><div class="c small">Tus momentos, guardados con cariño ✿</div>
+<div class="card" style="margin-top:18px;padding:12px 14px"><div style="font-weight:700;font-size:17px">¡Hola de nuevo, bonita!</div>
+<div class="inp">✉ Correo electrónico</div><div class="inp">🔒 Contraseña <span style="margin-left:auto">👁</span></div>
+<div class="btn">♥ Iniciar sesión</div></div>
+<div class="c" style="margin-top:14px;color:var(--pink)">¿Aún no tienes cuenta? <u><b>Regístrate</b></u></div>
+<div class="note" style="right:-6px;bottom:8px;width:132px">Compara correo + contraseña con la BD local</div>
+</div></div>
+
+<div class="cell"><div class="cap"><b>2</b>Registro</div>
+<div class="phone"><div class="bar"><span>9:41</span><span>▮▮▮ ◔</span></div>
+<div style="font-size:22px">←</div>
+<div style="display:flex;align-items:center"><p class="title" style="font-size:34px;text-align:left;flex:1">Crea tu cuenta</p><span style="font-size:28px;color:var(--pink)">✿</span></div>
+<div class="small">Solo te tomará un minuto ♡</div>
+<div class="card" style="padding:6px 12px">
+<div class="inp">👤 Nombre</div><div class="inp">👤 Apellidos</div><div class="inp">✉ Correo electrónico</div>
+<div class="inp">🔒 Contraseña</div><div class="inp">🔒 Confirmar contraseña</div>
+<div class="btn">✿ Registrarme</div><div class="c small" style="color:var(--pink)">Ya tengo cuenta</div></div>
+<div class="note" style="right:-6px;bottom:6px;width:190px">INSERT en tabla <b>usuarios</b> (contraseña con hash)</div>
+</div></div>
+
+<div class="cell"><div class="cap"><b>3</b>Pantalla principal</div>
+<div class="phone"><div class="bar" style="position:relative;z-index:2"><span>9:41</span><span>▮▮▮ ◔</span></div>
+<div class="head"><div style="display:flex;justify-content:space-between"><span class="t">Pétalo</span><span style="font-size:20px">⇥</span></div>
+<div style="font-weight:700;font-size:18px">Hola, Ana ♡</div><div style="font-size:13px">¿Qué momento capturamos hoy?</div></div>
+<div class="img" style="height:268px"><div style="position:absolute;left:10px;bottom:10px;background:var(--lavl);border:2px solid var(--ink);border-radius:12px;padding:3px 10px;font-size:13px;z-index:1">♡ Atardecer en la playa</div></div>
+<div style="display:flex;gap:10px;margin-top:14px"><div class="btn" style="flex:1;height:52px">📷 Tomar foto</div><div class="btn o" style="flex:1;height:52px">🖼 Ver fotos</div></div>
+<div class="note" style="left:30px;top:150px;width:200px;transform:rotate(2deg)">Aquí se muestra la foto recién tomada</div>
+</div></div>
+
+<div class="cell"><div class="cap"><b>4</b>Después de la cámara: comentario</div>
+<div class="phone" style="background:#e9e2e6"><div class="bar"><span>9:41</span><span>▮▮▮ ◔</span></div>
+<div style="position:absolute;left:16px;right:16px;top:90px;background:#fff;border:3px solid var(--ink);border-radius:26px;padding:16px">
+<div style="font-weight:700;font-size:19px"><span style="color:var(--pink)">✿</span> Escribe un comentario</div>
+<div class="img" style="height:120px;margin-top:10px;--a:20deg"></div>
+<div style="display:inline-block;margin-top:10px;background:var(--lavl);border:2px solid var(--ink);border-radius:12px;padding:3px 10px;font-size:13px">📍 19.43260, -99.13320</div>
+<div class="inp" style="height:62px;align-items:flex-start;padding-top:8px;border-radius:16px">¿Qué hace especial este momento?</div>
+<div class="small" style="text-align:right">0/200</div>
+<div style="display:flex;justify-content:flex-end;gap:18px;margin-top:8px;font-weight:700;color:var(--pink)"><span>Cancelar</span><span>GUARDAR</span></div></div>
+<div class="note" style="left:20px;bottom:18px;width:250px">Foto en carpeta de la app + INSERT en <b>fotos</b>: ruta, comentario, latitud, longitud</div>
+</div></div>
+
+<div class="cell"><div class="cap"><b>5</b>Ver fotos (lista)</div>
+<div class="phone"><div class="bar" style="position:relative;z-index:2"><span>9:41</span><span>▮▮▮ ◔</span></div>
+<div class="head" style="display:flex;align-items:center;gap:10px"><span style="font-size:20px">←</span><span class="t" style="flex:1">Mis fotos</span><span style="background:var(--lavl);color:var(--pink);border-radius:12px;padding:0 10px;font-weight:700;border:2px solid var(--ink)">6</span></div>
+<div class="thumbs">
+<div class="t"><div class="img"></div>Atardecer en la…<br><span class="small">♥ 2026-10-23</span></div>
+<div class="t"><div class="img"></div>Café con mamá<br><span class="small">♥ 2026-10-21</span></div>
+<div class="t"><div class="img"></div>Mis flores<br><span class="small">♥ 2026-10-20</span></div>
+<div class="t"><div class="img"></div>Cumple de Sofi<br><span class="small">♥ 2026-10-18</span></div>
+</div>
+<div class="note" style="right:-4px;bottom:10px;width:150px">SELECT * FROM fotos WHERE usuario_id = ? — tocar abre el detalle</div>
+</div></div>
+
+<div class="cell"><div class="cap"><b>6</b>Detalle de la foto</div>
+<div class="phone"><div class="bar"><span>9:41</span><span>▮▮▮ ◔</span></div>
+<div class="img" style="height:210px;border-radius:24px;--a:25deg"><div class="sk" style="position:absolute;left:10px;top:10px;width:32px;height:32px;border-radius:50%;border:2px solid var(--ink);background:#fff;text-align:center;line-height:30px;z-index:1">←</div></div>
+<div class="card"><div class="lbl">💬 COMENTARIO</div><div style="font-style:italic;font-size:16px">Atardecer en la playa con mis amigas</div></div>
+<div class="card"><div class="lbl">📍 UBICACIÓN GPS</div><div style="font-family:monospace;font-size:14px">Lat: 19.432608<br>Lon: -99.133209</div>
+<div class="btn o" style="height:32px;width:150px;font-size:14px;margin:6px 0 2px">📍 Ver en el mapa</div></div>
+<div class="card" style="background:var(--lavl);border-style:dashed">📅 2026-10-23 18:40:12</div>
+</div></div>
+</div>
+<div class="flow"><b>Flujo:</b> 1 Inicio de sesión → (Regístrate) → 2 Registro → vuelve a 1 &nbsp;|&nbsp; 1 → 3 Principal → <b>Tomar foto</b> → cámara del sistema → 4 Comentario + GPS → regresa a 3 mostrando la foto &nbsp;|&nbsp; 3 → <b>Ver fotos</b> → 5 Lista → 6 Detalle</div>
+</body></html>

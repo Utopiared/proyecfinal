@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta femenina: rosa palo, frambuesa y lavanda -->
+    <color name="rosa_principal">#E0607E</color>
+    <color name="rosa_oscuro">#B8405E</color>
+    <color name="rosa_claro">#F9D3DE</color>
+    <color name="rosa_niebla">#FFF4F7</color>
+    <color name="lavanda">#C8B4E6</color>
+    <color name="lavanda_claro">#EEE6FA</color>
+    <color name="ciruela">#5B2C4A</color>
+    <color name="texto_suave">#8E6A7C</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="borde">#F2C6D3</color>
+</resources>
